@@ -10,6 +10,7 @@ from posts.models import (
 )
 NOT_FOLLOW = 'Самоподписка'
 
+
 class GroupSerializer(serializers.ModelSerializer):
 
     class Meta:

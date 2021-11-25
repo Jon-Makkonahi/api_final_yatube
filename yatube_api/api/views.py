@@ -2,7 +2,7 @@ from rest_framework import viewsets, permissions, filters
 from rest_framework.generics import get_object_or_404
 from rest_framework.pagination import LimitOffsetPagination
 
-from posts.models import Post, Group, User
+from posts.models import Post, Group
 from .permissions import AuthorPermissionReadOnlyAll
 from .serializers import (
     GroupSerializer,
@@ -10,6 +10,7 @@ from .serializers import (
     CommentSerializer,
     FollowSerializer
 )
+
 
 class PostViewSet(viewsets.ModelViewSet):
     queryset = Post.objects.all()
