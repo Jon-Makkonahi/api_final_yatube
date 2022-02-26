@@ -1,19 +1,50 @@
-Как запустить проект:
+# Учебный проект "YaMDb API"
+
+Проект YaMDb позволяет добавлять новых пользователей,
+собирает отзывы пользователей на различные произведения.
+
+### Авторы:
+- Daniil Bibikov (Jon-Makkonahi) https://github.com/Jon-Makkonahi
+
+### Технологии:
+- Python
+- Django
+- DRF
+
+### Как запустить проект:
+
 Клонировать репозиторий и перейти в него в командной строке:
 
-git clone https://github.com/yandex-praktikum/api_final_yatube.git
-cd api_final_yatube
+```
+git clone git@github.com:Jon-Makkonahi/api_yamdb.git
+```
+
+```
+cd api_yambd
+```
+
 Cоздать и активировать виртуальное окружение:
 
-python -m venv env
+```
+python3 -m venv env
+```
+
+```
 source env/bin/activate
+```
+
 Установить зависимости из файла requirements.txt:
 
-python -m pip install --upgrade pip
+```
+python3 -m pip install --upgrade pip
+```
+
+```
 pip install -r requirements.txt
+```
+
 Выполнить миграции:
 
-python manage.py migrate
-Запустить проект:
-
-python manage.py runserver
+```
+python3 manage.py migrate
+```
