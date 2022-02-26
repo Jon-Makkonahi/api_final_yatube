@@ -20,7 +20,7 @@ git clone git@github.com:Jon-Makkonahi/api_final_yatube.git
 ```
 
 ```
-cd api_yambd
+cd api_final_yatube
 ```
 
 Cоздать и активировать виртуальное окружение:
